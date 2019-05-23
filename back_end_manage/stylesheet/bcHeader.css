@@ -1,0 +1,114 @@
+div{
+    max-width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-align: center;
+    text-decoration:none;
+    color: #4b83fd;
+    cursor: pointer;
+}
+ol{
+    list-style: none;
+    padding: 0px;
+}
+div#header{
+    margin: 0 auto;
+    width: 900px;
+    height: 64px;
+}
+div#header img{
+    display: block;
+    float: left;
+}
+div#header div.bc-title{
+    float: left;
+    width: 367px;
+    height: 100%;
+    text-align: center;
+}
+div#header div.bc-title span{
+    font-size:48px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    color: green;
+    opacity: 0.6;
+}
+div#header .header-logout{
+    width: 50px;
+    height: 15px;
+    float: right;
+    text-align: center;
+    margin-top: 12px;
+    margin-right:10px; 
+    border-radius:3px;
+}
+
+
+div#header .header-logout a{
+    font-size:14px;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div#header .header-menu{
+    width: 50px;
+    height: 15px;
+    float: right;
+    text-align: center;
+    margin-top: 12px;
+    margin-right:30px; 
+    border-radius:3px;
+}
+
+
+div#header .header-menu a{
+  font-size:14px;
+  font-weight: bolder;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+/* === 管理系統選單 ===*/
+div#top-bar{
+  margin-top:100px; 
+  width: 150px;
+  display: none;
+}
+div#top-bar ol{
+}
+div#top-bar ol li{
+  text-align: center;
+  height: 50px;
+  border: 1px solid  #999ba1;
+  margin-bottom: 5px;
+  padding-bottom:0px; 
+}
+div#top-bar ol li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  letter-spacing:4px;
+  padding: 6px 0 0 2px;
+  color: gray;
+ 
+}
+div#top-bar ol li:hover{
+  background: #999ba1;
+}
+div#top-bar ol li a:hover{
+  color: white;
+}
+div#top-bar ol li.selected{
+  background: #999ba1;
+}
+div#top-bar ol li.selected a{
+  color: white;
+}
+
+

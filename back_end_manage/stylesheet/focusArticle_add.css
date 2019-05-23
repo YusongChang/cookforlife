@@ -1,0 +1,295 @@
+span{
+  color:gray;
+}
+img{
+  max-width: 100%;
+}
+
+
+div#page-bar{
+  text-align: left;
+  margin:30px auto 15px auto;
+  border-bottom: 1px solid #c3dcf8;
+  padding-bottom:2px; 
+  width:900px;
+  
+}
+
+div#page-bar ol{
+  padding: 0;
+  margin: 0;
+}
+div#page-bar ol li{
+  display: inline;
+}
+div#page-bar ol li a#dir-editTag{
+  background-color:#97c4f8;
+  color:wheat;
+  padding:3px;
+}
+div#adapt{
+  max-width: 100%;
+  width:800px;
+  margin:20px auto 0 auto;
+}
+div#adapt div{
+  width:500px;
+  margin-bottom: 20px;
+}
+div#adapt span{
+  font-size: 16px;
+}
+div#article-title input#input-title{
+  max-width: 100%;
+  width: 350px;
+  height: 30px;
+}
+div#article-title span#world-limit{
+  font-size:15px;
+}
+div#thumb-img{
+  width:360px!important;
+  height:270px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+div#thumb-img img{
+  width:100%;
+  height:100%;
+}
+div#summ-div textarea{
+  width:490px;
+  max-width:100%;
+}
+div.submit{
+
+  border-radius: 0;
+
+  /* border-top: 0.5px dashed #8ca58c; */
+
+  width: 100%;
+
+  height:100px;
+
+  text-align: center;
+
+  padding-top: 3%;
+
+}
+
+div.submit strong{
+
+  color:#7eac29;
+
+}
+div.submit div#draft-div{
+  margin-bottom: 20px;
+}
+div.submit input[type=checkbox]{
+
+  vertical-align: middle;
+
+  margin-right:30px;
+
+  width:20px;
+
+  height: 20px;
+
+}
+div.bottom-bar{
+  width:500px;
+  text-align: right;
+  padding-right:2px; 
+  border-radius: 0;
+}
+div.bottom-bar a{
+  border: 2px solid #3c7ffd;
+  padding:4px;  
+}
+input#send {
+  color: gray;
+  border: 1px solid gray;
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+input#send:hover,input#send:focus{
+  background:gray;
+  color:white;
+}
+
+div#sec-adapt{
+  width: 800px;
+}
+
+div#upImgModal{
+  display: none;
+  position: fixed;
+  z-index:3; /*元素排序在上層*/
+  padding-top:120px;
+  left: 0;
+  top:0;
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: rgb(0,0,0); */
+  background-color: rgba(0,0,0,0.4);
+}
+div#upImgModal div#modal-content{
+  width:30%;
+  height:auto;
+  background:#f5f7f5; 
+  padding: 0 0 35px 0;
+}
+div#upImgModal div#modal-content div#close-bar{
+  padding-right: 10px;
+  text-align: right;
+}
+div#upImgModal div#modal-content div#close-bar span{
+  font-size: 30px;
+  cursor: pointer;
+}
+div#upImgModal div#modal-content div#close-bar span:hover{
+  color:red;
+}
+div#upImgModal div#modal-content div#head-title h3{
+  margin-top:0;
+  color:green;
+}
+div#upImgModal div#modal-content div#preview-Img{
+  width:300px;
+  height:300px;
+  border:1px solid #3c7ffd;
+  margin-bottom: 20px;
+}
+div#upImgModal div#modal-content div#preview-Img canvas{
+  width:100%;
+  height:100%;
+}
+div#upImgModal div#modal-content div{
+  text-align: center;
+}
+div#upImgModal div#modal-content input#inputImg{
+  position: fixed;
+  top:-1000px;
+}
+
+div#upImgModal div#modal-content div#addImg-div{
+  width:300px;
+  height:24px;
+  border:1px solid #3c7ffd;
+}
+div#upImgModal div#modal-content div#addImg-div a{
+  display: block;
+  padding:4px;
+}
+div#save-div{
+  height:30px;
+  padding-top:10px;
+}
+div#save-div a{
+  display: block;
+  width:50px;
+  border:1px solid #3c7ffd;
+  padding:10px;
+  margin:0 auto;
+}
+
+/*=== Thumbnail Upload Modal===**/
+div#thumbModal{
+  display: none;
+  position: fixed;
+  z-index:3; /*元素排序在上層*/
+  padding-top:150px;
+  left: 0;
+  top:0;
+  width:100%;
+  height: 100%;
+  overflow: auto;
+  /* background-color: rgb(0,0,0); */
+  background-color: rgba(0,0,0,0.4);
+}
+div#thumbModal div#modal-content{
+  width:50%;
+  height:auto;
+  background:#f5f7f5; 
+  padding: 2px 0 15px 0;
+}
+div#thumbModal div#modal-content div#close-bar{
+  padding-right: 10px;
+  text-align: right;
+}
+div#thumbModal div#modal-content div#close-bar span{
+  font-size: 30px;
+  cursor: pointer;
+}
+div#thumbModal div#modal-content div#close-bar span:hover{
+  color:red;
+}
+
+div#thumbModal div#modal-content div#preview-Img{
+  width:360px;
+  height:270px;
+  border:1px solid #3c7ffd;
+  margin-bottom: 20px;
+}
+div#thumbModal div#modal-content div#preview-Img canvas{
+  width:100%;
+  height:100%;
+}
+div#thumbModal div#modal-content div{
+  text-align: center;
+}
+div#thumbModal div#modal-content input#inputImg{
+  position: fixed;
+  top:-1000px;
+}
+
+div#thumbModal div#modal-content div#addImg-div{
+  width:100px;
+  height:30px;
+}
+div#thumbModal div#modal-content div#addImg-div a{
+  display: block;
+  padding:4px;
+  background: #7893df;
+  color: white
+}
+div#thumbModal div#save-div{
+  height:30px;
+  padding-top:20px;
+}
+div#thumbModal div#save-div a{
+  display: block;
+  width:37px;
+  border-radius: 10px;
+  border:none;
+  background:gray;
+  color: white;
+  padding:4px;
+  margin:0 auto;
+}
+
+/* ==== @media queries ==== */
+/* IPHONE 6/7/8 plus  */
+@media only screen and (max-width:414px){
+  div#thumbModal div#modal-content,div#upImgModal div#modal-content{
+    width:70%;
+  }
+  div#upImgModal div#modal-content{
+    height: 58%;
+  }
+  div#upImgModal div#modal-content div#preview-Img{
+    width:70%!important;
+    height: 50%!important;
+  }
+  div#addImg-div{
+    width:70%!important;
+  }
+  a#save-img{
+    width:20%!important;
+    padding:0!important;
+  }
+}

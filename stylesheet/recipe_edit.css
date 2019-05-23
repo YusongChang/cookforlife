@@ -1,0 +1,576 @@
+div{
+
+  border: 0;
+
+}
+
+ol{
+
+  list-style-type: none;
+
+}
+
+hr.hr_medium{
+
+  width: 80%;
+
+  background-color: #e2dede;
+
+}
+
+h3,h4{
+
+  font-weight:normal;
+
+  color: gray;
+
+}
+
+input.text{
+
+  height: 40px;
+
+  font-size: 15px;
+
+  padding:0 10px;
+
+  margin:0 10px 10px 0;
+
+  border-radius: 2px;
+
+  border: 2px solid #dedede; 
+
+}
+
+input.text:focus{
+
+  border:2px solid #737cf8; 
+
+}
+
+input.unit{
+
+  width: 50px;
+
+}
+
+p,span{
+
+  word-break:break-all;
+
+}
+
+h5{
+
+  font-size: 18px;
+
+}
+
+/* --- 廣告 區塊 ---*/
+
+div#advertise_area{
+
+  margin: 10px auto;
+
+  border-radius:0;
+
+}
+/* ---編輯食譜 標題區塊 ---*/
+div#update-head{
+}
+div#update-head h1{
+ color: gray;
+ background: #e8fbe6;
+ letter-spacing: 40px;
+ text-align: center;
+}
+
+/* ----- 食譜新增區域 ---- */
+
+div#add-recipe{
+
+  margin-top: 20px;
+
+  border:0.5px solid #c8d9fd;
+
+}
+
+
+
+div#add-recipe div#sidebar_right{
+
+  float: right;
+
+  width: 20%;
+
+  background: grey;
+
+}
+
+
+
+div#add-recipe div#head_title{
+
+  border: none;
+
+  /* background: #076286; */
+
+  color: gray;
+
+  width: 100%;
+
+}
+
+
+
+div#add-recipe div#head_title input.input_title{
+
+  margin:10px 20px 10px 10%;
+
+  width: 50%;
+
+  height: 30px;
+
+  font-size: 20px;
+
+}
+
+div#add-recipe div#finish_content{
+
+  border: none;
+
+  height:280px;
+
+  margin:40px 0 20px 0;
+
+}
+
+div#add-recipe div#finish_content .img-summ{
+
+  border: none;
+
+  width: 700px;
+
+  height: 275px;
+
+}
+
+div#add-recipe div#finish_content div.up-img{
+
+  position: relative;
+
+  background:url('../img/add_finsih.png') no-repeat left center ;
+
+  background-size: 100%;
+
+  /* margin:10px 0 30px 10%; */
+
+  width:360px;
+
+  height:270px;
+
+  float: left;
+
+  max-width: 100%;
+
+}
+
+div#add-recipe div#finish_content div.up-img canvas.preview_canvas{
+
+  position: absolute;
+
+  top:0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+div#add-recipe div#finish_content div.up-img input.finish_img{
+
+  position: absolute;
+
+  top:0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  opacity: 0;
+
+}
+
+div#add-recipe div#finish_content div.up-img span{
+
+  position: absolute;
+
+  top:70%;
+
+  left: 14%;
+
+}
+
+div#add-recipe div#finish_content .up-img-info{
+
+  border: none;
+
+  width:300px;
+
+  float: right;
+
+}
+
+div#add-recipe div#finish_content .up-img-info p{
+
+  word-break:break-all;
+
+  margin: 35px auto;
+
+}
+
+div#add-recipe div.hidden_upimg_info{
+
+  display: none;
+
+  width:265px;
+
+  height:auto;
+
+}
+
+div#add-recipe div.hidden_upimg_info p{
+
+  margin: 30px auto;
+
+}
+
+div#add-recipe div.summary{
+
+  width: 700px;
+
+  height:220px;
+
+  margin: 30px auto;
+
+}
+
+div#add-recipe div.summary h4{
+
+  margin: 0 0 20px 0;
+
+}
+
+div#add-recipe div.summary textarea{
+
+max-width: 100%;
+
+width: 251px;
+
+height: 100px;
+
+border-radius: 5px;
+
+font-size: 15px;
+
+padding: 25px;
+
+}
+
+div#add-recipe div.summary .count_word{
+
+  float:right;
+
+  font-size: 18px;
+
+}
+
+div#add-recipe div.summary textarea:focus{
+
+  font-size: 18px;
+
+}
+
+/* 準備材料*/
+
+div#add-recipe div.ingredient{
+
+  width: 700px;
+
+}
+
+
+
+div#add-recipe div.ingredient dl{
+
+  margin:0;
+
+}
+
+div#add-recipe div.ingredient dl dd{
+
+  border-bottom: 2px dashed #6fac6f;
+
+  margin: 10px 0;
+
+  width: 55%;
+
+}
+
+/*調理步驟*/
+
+div#add-recipe div.cook_step{
+
+  margin: 10px auto;
+
+  margin-top: 54px;
+
+  width: 700px;
+
+}
+
+div#add-recipe div.cook_step div{
+
+  margin: 5% 19%;
+
+}
+
+div#add-recipe div.cook_step dl dd{
+
+  margin:0;
+
+}
+
+
+
+div#add-recipe div.cook_step dl dd div.upload_step{
+
+  position:relative;
+
+  margin: 10px 0;
+
+  left: 10px;
+
+  width:240px; 
+
+  height:180px;
+
+  background:url('../img/add_step.png')no-repeat 42% center #f7eba9;
+
+  background-size: 70%;
+
+  border: 1px dashed black;
+
+  cursor: pointer;
+
+}
+
+div#add-recipe div.cook_step dl dd div.upload_step canvas{
+
+  position: absolute;
+
+  top:0;
+
+  left:0;
+
+  width:100%; 
+
+  height:100%;
+
+}
+
+div#add-recipe div.cook_step dl dd div.upload_step input{
+
+  position: absolute;
+
+  top:0;
+
+  left:0;
+
+  width:100%; 
+
+  height:100%;
+
+  opacity: 0;
+
+}
+
+div#add-recipe div.cook_step dl dd div.upload_step span{
+
+  position: absolute;
+
+  top:80%;
+
+  left: 21%;
+
+}
+
+div#add-recipe div.cook_step dl dd div.input_area{
+
+  margin: 0 0 0 25px;
+
+  width: 55%;
+
+}
+
+div#add-recipe div.cook_step dl dd div.input_area input.step{
+
+  max-width: 100%;
+
+}
+
+div.add-row{
+
+  /* padding-left:20px; */
+
+  width: 205px!important;
+
+  height:50px;
+
+  margin: 0!important;
+
+}
+
+div.add-row .add-ingre{
+
+  margin-left: 5px;
+
+}
+
+div.ig{
+
+  width: 700px;
+
+}
+
+div.submit{
+
+  border-radius: 0;
+
+  border-top: 0.5px dashed #8ca58c;
+
+  width: 100%;
+
+  height:100px;
+
+  text-align: center;
+
+  padding-top: 3%;
+
+}
+
+div.submit strong{
+
+  color:#7eac29;
+
+}
+
+div.submit input[type=checkbox]{
+
+  vertical-align: middle;
+
+  margin-right:30px;
+
+  width:20px;
+
+  height: 20px;
+
+}
+div.bottom-bar{
+  width:100px;
+  border: 1px solid #3c7ffd;
+  border-bottom:0;
+  text-align: center;
+  padding-right:2px; 
+  border-radius: 0;
+}
+
+.delete-btn{
+
+  color:red;
+
+  border: 1px solid red;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 10px 10px;
+
+  cursor: pointer;
+
+  margin-left: 20px;
+
+} /* Red */ 
+
+
+
+.add-row-btn{
+
+  color:green;
+
+  border: 1px solid green;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 10px 10px;
+
+  cursor: pointer;
+
+  font-weight: bolder;
+
+}
+
+.enter-btn{
+
+  color: #3c7ffd;
+
+  border: 1px solid #3c7ffd;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 10px 10px;
+
+  cursor: pointer;
+
+  font-weight: bolder;
+
+  letter-spacing: 5px;
+
+  margin-right: 10px;
+
+}
+
+/* ==== @media queries ==== */
+
+/* IPHONE 6/7/8 plus  */
+
+@media only screen and (max-width:414px){
+
+  .hidden_upimg_info{
+
+    display: block!important;
+
+  }
+
+  .up-img-info{
+
+    display: none!important;
+
+  }
+
+  div#add-recipe div#finish_content{
+
+    margin:40px 0 20px 0;
+  
+  }
+
+}

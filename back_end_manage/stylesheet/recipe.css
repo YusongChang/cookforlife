@@ -1,0 +1,21 @@
+div{
+  margin: 0 auto;
+}
+/* ---- 標題 ----  */
+div#adapt div#head-title{
+  text-align: left!important;
+  width: 800px;
+}
+div#adapt div#head-title span{
+  display: block;
+  width: 203px;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  color: #a1a1a1;
+}
+
+/* --- table list ---*/
+div#adapt div#table-area{
+  margin-top:20px;
+}

@@ -1,0 +1,513 @@
+h4{
+  color: gray;
+}
+div{
+  border: none;
+}
+div#adapt{
+  border-radius: 0;
+}
+/* ==== 食譜詳情 ==== */
+div#adapt div.recipe_detail{
+  margin: 80px 0 20px 0;
+  padding-bottom:60px;
+  box-shadow: 0px 3px 10px 2px #00000033;
+  border-top: 2px solid #e4e1e1;
+}
+
+div#adapt div.recipe_detail h1{
+  text-align: center;
+  color:#777575;
+  word-break: break-all;
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+
+div#adapt div.recipe_detail ol#tag-list{
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+div#adapt div.recipe_detail ol#tag-list li{
+  display: inline-block;
+  margin:0 5px; 
+  width: 50px;
+  border: 0.5px solid #cf6603;
+  border-radius: 4px;
+}
+div#adapt div.recipe_detail ol#tag-list li a{
+  display: block;
+  margin:0 auto;
+  padding: 5px 0px;
+  width: 100%;
+  color: #cf6603;
+}
+div#adapt div.recipe_detail dl {
+  text-align: center;
+}
+div#adapt div.recipe_detail dl dt img{
+  width:664px;
+  height: 470px;
+  max-width:90%; 
+}
+
+div#adapt div.recipe_detail dl dd{
+ padding: 0;
+ color:black;
+}
+div#adapt div.recipe_detail dl dd.summary{
+  margin: 40px auto;
+  text-align: left;
+  line-height: 200%;
+  max-width: 75%;
+}
+div#adapt div.recipe_detail div#ingre{
+  width: 664px;
+  border: none;
+  margin: 40px auto;
+}
+div#adapt div.recipe_detail div#ingre h2{
+  color:#747272;
+  letter-spacing: 5px;
+}
+div#adapt div.recipe_detail div#ingre dl{
+  width:100%;
+  margin: 0;
+  margin-bottom: 40px;
+}
+div#adapt div.recipe_detail div#ingre dl.ingredient dd{
+  line-height: 200%;
+  width: 50%;
+  padding:5px 0;
+  margin: 10px 50px;
+  color:#5a5959;
+  border-bottom: 0.3px solid #9bbe9b;
+  text-align: left;
+}
+div#adapt div.recipe_detail div#ingre dl dd span{
+  float:right;
+}
+div#adapt div.recipe_detail div#ingre dl.step_dl {
+  text-align: left;
+}
+div#adapt div.recipe_detail div#ingre dl.step_dl dt{
+  padding:5px 0;
+  margin: 10px 50px;
+}
+
+div#adapt div.recipe_detail div#ingre dl.step_dl dt img{
+  max-width: 100%;
+  width: 240px;
+  height: 180px;
+}
+div#adapt div.recipe_detail div#ingre dl.step_dl dd{
+  width: 100%;
+  border-bottom: none;
+  counter-increment: step-counter;
+  word-break: normal;
+  line-height: 200%; /*行高*/
+}
+div#adapt div.recipe_detail div#ingre dl.step_dl dd::before{
+  content: "步 驟 "counter(step-counter)".";
+  margin: 20px 5px;
+  font-size: 80%;
+  background-color: #cf7070;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+div#adapt div.recipe_detail div#authorTime{
+  width: 664px;
+  margin: 60px auto 0px auto;
+  color:gray;
+  text-align: center;
+  border: none;
+  width: 50%;
+  border-top: 0.5px solid #c2c2ff; 
+  border-bottom: 0.5px solid #c2c2ff; 
+  width: 50%;
+  border-radius:0; 
+}
+div#adapt div.recipe_detail div#authorTime ol{
+  width: 50%;
+  padding: 0px;
+  margin: 0 auto;
+}
+div#adapt div.recipe_detail div#authorTime ol li{
+  width: 50%;
+  display: inline-block;  
+  width: 50%;
+  font-size: 20px;
+  width: 50%;
+  width: 70px;
+  margin:0 10px;
+}
+div#adapt div.recipe_detail  div#authorTime div.author{
+  width: 480px;
+  height: 50px;
+  border: none;
+  margin-top:50px; 
+}
+div#adapt div.recipe_detail div#authorTime div.author ol{
+  display: table-row;
+  margin: 0;
+  height: 100%;
+}
+div#adapt div.recipe_detail div#authorTime div.author ol li{
+  vertical-align: middle;
+  height: 100%;
+  font-size: 16px;
+  margin: 0;
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li.photo-li{
+  width: 190px;
+  margin-left: 0px
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li.photo-li img{
+  width: 50px;
+  height: 50px;
+  background:blueviolet;
+  transition: 0.5s;
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li.photo-li img:hover{
+  opacity: 0.5;
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li.photo-li a{
+  float:left;
+  margin-top:16px;
+  margin-left: 5px;
+  color:gray;
+  transition: 3s;
+  font-weight: normal;
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li.photo-li a:hover{
+  color:blue;
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li .follow-btn{
+  width: 70px;
+  height: 40px;
+  margin-top:5px;
+  margin-left: 20px;
+  text-align: right;
+  color: gray;
+  font-size:16px;
+  border-radius:10px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 3s;
+  background:url(../sprite/add-friend.svg) no-repeat left center ;
+  background-size:25px; 
+  border: 0.8px solid #ede1f8;
+}
+div#adapt div.recipe_detail  div#authorTime  div.author ol li .follow-btn:hover{
+  opacity: 1;
+  background-size:30px; 
+}
+div#adapt div.recipe_detail div#authorTime div.author ol li.time-li{
+  width: 150px;
+  margin-left: 70px; 
+  font-size:13px; 
+}
+div#adapt div.recipe_detail div#edit-bar{
+  text-align: right;
+  width: 800px;
+  padding: 20px 20px 0 0;
+}
+div#adapt div.recipe_detail div#trial-like{
+  text-align: center;
+  margin: 50px 0 20px 0;
+  border: none;
+}
+div#adapt div.recipe_detail  div#share-link{
+  padding: 0 0 20px 0;
+  height: 50px;
+  text-align: center;
+  display: none;
+}
+div#adapt div.recipe_detail  div#share-link ol{
+  padding:0;
+  margin: 0;
+}
+div#adapt div.recipe_detail  div#share-link ol li{
+  display: inline-block;
+  width: 40px;
+  height: 50px;
+  margin: 0 20px;
+}
+
+li.facebook{
+  background: url(../sprite/facebook.svg) no-repeat center center;
+  background-size:40px; 
+}
+li.ig{
+  background: url(../sprite/instagram.svg) no-repeat center center;
+  background-size:40px; 
+}
+li.google{
+  background: url(../sprite/google-plus.svg) no-repeat center center;
+  background-size:40px; 
+}
+li.twitter{
+  background: url(../sprite/twitter.svg) no-repeat center center;
+  background-size:40px; 
+}
+.trial-btn{
+  color:green;
+
+  border: 1px solid green;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 14px 10px 10px 10px;
+  
+  letter-spacing: 5px;
+
+  cursor: pointer;
+
+  margin: 0 20px;
+}
+.collect-btn{
+  color:red;
+
+  border: 1px solid red;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 14px 10px 10px 10px;
+
+  cursor: pointer;
+  margin: 0 20px;
+}
+.collect-btn span{
+  display: block;
+  letter-spacing: 5px;
+  width:60px;
+  text-align: right;
+  background: url(../sprite/like.svg)no-repeat left center;
+  background-size: 19px; 
+}
+.share-btn{
+  color:blue;
+
+  border: 1px solid blue;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 14px 10px 10px 10px;
+
+  margin: 0 20px;
+
+  cursor: pointer;
+}
+.share-btn span{
+  display: block;
+  letter-spacing: 5px;
+  width:60px;
+  text-align: right;
+  background: url(../sprite/share.svg)no-repeat left center;
+  background-size: 17px; 
+}
+.report-btn{
+  border: none;
+  color:white;  
+  background: gray;
+  cursor: pointer;
+  padding:10px 0px;
+  padding-left: 4px;
+  width:55px;
+  letter-spacing: 5px;
+  font-size:18px;
+  border-radius: 5%;
+}
+div.recipe_detail div#trial-share{
+  display: none;
+  margin: 10px 0;
+  text-align: center;
+}
+div.recipe_detail div#trial-share div.finish-trial{
+  position: relative;
+  margin: 20px auto;
+  width: 360px;
+  height:270px;
+  background: url(../img/add_finsih.png) no-repeat left center;
+  background-size: 100%;
+  border:none;
+}
+div.recipe_detail div#trial-share div.finish-trial canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:0;
+}
+div.recipe_detail div#trial-share div.finish-trial input{
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left:0;
+}
+div.recipe_detail div#trial-share  div.finish-text{
+  margin: 10px 0;
+  text-align: center;
+}
+div.recipe_detail div#trial-share  div.finish-text textarea{
+  width: 200px;
+  height: 100px;
+  border-radius: 5px
+}
+
+div.recipe_detail div#trial-share div#trial-text span{
+  line-height: 200%;
+  display: block;
+  width: 360px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+div.recipe_detail div#trial-share p{
+  margin: 0 auto;
+  padding:4px 0 3px 0;
+  width:250px;
+  text-align: center;
+  letter-spacing: 10px;
+  background: url(../sprite/photo_up.svg) no-repeat 5px center;
+  background-size: 25px;
+}
+div#comment{
+  height: 600px;
+}
+div#comment iframe {
+  width:100%;
+  height: 100%;
+  box-shadow: 0px 3px 10px 2px #00000033;
+}
+
+/* ==== @media queries ==== */
+/* IPHONE 6/7/8 plus  */
+@media only screen and (max-width:414px){
+  h1{
+    font-size:20px!important; 
+  }
+
+  div#adapt div.recipe_detail dl dt img{
+    max-width: 90%;
+    height: auto;
+  }
+  div#adapt div.recipe_detail dl dd{
+    padding: 0 5px;
+  }
+  div#adapt div.recipe_detail div#ingre dl{
+    width: 80%;
+  }
+
+  div#adapt div.recipe_detail div#ingre dl dd{
+    width: 80%;
+    padding:0;
+    margin: 5px 0;
+    color:#5a5959;
+  }
+  div#adapt div.recipe_detail div#ingre dl.step_dl{
+    width: 100%;
+  }
+  div#adapt div.recipe_detail div#ingre dl.step_dl dd{
+    width: 100%;
+  }
+  div#adapt div.recipe_detail div#ingre dl.step_dl dd::before{
+    padding: 2px 5px;
+  }
+  div#adapt div.recipe_detail div#authorTime ol li{
+    margin:0 6px;
+  }
+  div#adapt div.recipe_detail div#authorTime ol li.author-li{
+    margin:15px 5px 0 0; 
+  }
+  div#adapt div.recipe_detail  div#authorTime  div.author ol li.photo-li{
+    margin-left: 2px;
+  }
+  div#adapt div.recipe_detail div#authorTime div.author ol li.time-li{
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  div#adapt div.recipe_detail div#edit-bar{
+    max-width:90%;
+  }
+  
+  div#adapt div.recipe_detail div#ingre dl.ingredient dd{
+    width: 100%;
+  }
+
+  .trial-btn{
+    margin: 0;
+  }
+  .collect-btn{
+    margin: 0;
+  }
+  .share-btn{
+    margin: 0;
+  }
+  .share-btn{
+    margin:10px 0;
+  }
+
+}
+
+/*IPHONE 6/7/8 */
+
+@media only screen and (max-width:375px){
+
+
+}
+
+/* Glaxy S5 */
+
+@media only screen and (max-width:360px){
+
+}
+
+/* IPad */
+
+@media only screen and (max-width:768px){
+
+  div#adapt div.recipe_detail dl dt img{
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+/* IPHONE 5/SE  */
+
+@media only screen and (max-width:320px){
+
+  div#adapt div.recipe_detail div#authorTime ol li{
+    margin:0 1px;
+  }
+
+  li.facebook{
+    margin: 0 10px!important; 
+  }
+  li.ig{
+    margin: 0 10px!important; 
+  }
+  li.google{
+    margin: 0 10px!important; 
+  }
+  li.twitter{
+    margin: 0 10px!important; 
+  }
+}
+
+
+
+@media only screen and (max-width:932px){
+
+
+}

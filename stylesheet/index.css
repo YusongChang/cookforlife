@@ -1,0 +1,260 @@
+/* ==== recommendation area ==== */
+body{
+  background-color:#f8f1f1; 
+}
+div{
+  border-radius: 0;
+  max-width: 900px;
+  background: #f8ecec;
+}
+a{
+  color:black;
+  text-decoration:none;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+}
+#adapt{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 220px 1fr;
+  grid-template-areas: 
+      " artic"
+      " recipe";
+  grid-gap: 10px;
+  margin: 20px auto;
+}
+
+#article{
+  grid-area: artic;
+  display: grid;
+  grid-template-columns: 240px 2fr;
+  grid-template-areas:
+        "artic-img artic-cont";
+  grid-gap: 15px;
+  border: 1px solid #dad8d8;
+  padding-left: 5px;
+  overflow: hidden;
+}
+#article a#img-link{
+
+}
+#article div#cover{
+  grid-area: artic-img;
+}
+#article img#cover-img{
+  width:240px; 
+  height:180px;
+  margin-top:10px;
+}
+#article div#content{
+  grid-area: artic-cont;
+}
+#article div#content span{
+  display: block;
+  padding-right:40px;
+  float: right;
+}
+#article div#content span a{
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+#article div#content span a:hover{
+  color: #fc7575;
+}
+#article p{
+  display: block;
+  width: 600px;
+  margin: 0 10px 0 0;
+  word-break: break-all;
+
+}
+#article h3{
+
+}
+
+#recipe-list{
+  grid-area: recipe;
+  height: auto;
+  border: 1px solid #dad8d8;
+
+}
+
+#recipe-list h4{
+
+  margin: 0;
+
+  padding: 5px;
+
+  background: #fa9a6e;
+
+  color: white;
+
+  letter-spacing: 10px;
+
+}
+
+#recipe-list dl{
+
+  display: inline-block;
+
+  max-width:100%;
+
+  width:200px;
+
+  margin: 4px 8px 4px 13px;
+
+}
+
+#recipe-list dl a{
+
+  color: #000000;
+
+}
+
+#recipe-list dl dt{
+
+  max-width:100%;
+
+  text-align: center;
+
+}
+
+#recipe-list dl dd{
+
+  max-width:100%;
+
+  margin: 0%;
+
+  text-align: center;
+
+}
+
+#recipe-list dl dt span.dishName{
+
+  display : inline-block;
+
+  letter-spacing:6px; 
+
+  font-size: 20px;
+
+  overflow : hidden;
+
+  text-overflow : ellipsis;
+
+  white-space : nowrap;
+
+  width : 208px;
+
+}
+
+
+
+#recipe-list dl dd span.author{
+
+  letter-spacing: 2px;
+
+  font-size: 13px;
+
+  color:gray;
+
+}
+
+#recipe-list dl dd span.date{
+
+  letter-spacing: 1px;
+
+  font-size: 12px;
+
+  color:gray;
+
+  padding-left: 10px;
+
+}
+
+#recipe-list dl dt img{
+
+  max-width:100%;
+
+}
+
+#recipe-list dl dd span{
+
+  max-width:100%;
+
+}
+
+
+
+/* ==== @media queries ==== */
+
+/* IPHONE 6/7/8 plus  */
+
+@media only screen and (max-width:414px){
+
+  #recipe-list dl{
+    max-width:100%;
+    width:100%;
+    margin: 0;
+
+  }
+  #recipe-list dl dt img{
+
+    max-width:100%;
+
+  }
+  #recipe-list dl dd{
+    text-align: center;
+  }
+  #recommendation h2{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:360px){
+ 
+  #recipe-list dl{
+    margin: 0px 0 10px 0!important;
+  }
+}
+
+/** IPHONE 5/SE*/
+@media only screen and (max-width:320px){
+  #recommendation h2{
+    font-size: 15px;
+  }
+}
+/** IPad*/
+@media only screen and (max-width:900px){
+  #adapt{
+    grid-template-rows: auto 1fr!important;
+    grid-template-areas: 
+          "artic"
+          "recipe";
+  }
+  #article{
+    grid-template-columns: 1fr!important;
+    grid-template-rows: auto auto!important;
+    grid-template-areas: 
+    "artic-img"
+    "artic-cont"!important;
+    padding:0;
+    padding-bottom:15px;
+    word-break: break-all;
+    text-align: center; 
+
+  }
+  #article h3{
+
+  }
+  #article p{
+    width: unset;
+  }
+
+}

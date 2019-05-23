@@ -1,0 +1,43 @@
+div#adapt{
+  margin-top: 80px;
+  width: 800px;
+}
+
+a{
+
+  text-align: center;
+
+  text-decoration:none;
+
+  color: #4b83fd;
+
+  cursor: pointer;
+}
+
+table, th, td {
+  font-size: 12px;
+  border: 1px solid #aaa8a8;
+  border-collapse: collapse;
+}
+th,td{
+  padding: 15px;
+}
+
+.delete-btn{
+  color:red;
+  border: 1px solid red;
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+
+}
+
+.edit-btn{
+  color:green;
+  border: 1px solid green;
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,96 @@
+div{
+  margin: 0 auto;
+  max-width:100%; 
+}
+div#adapt div#page-bar{
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #b3d5fc;
+  padding-bottom:2px; 
+}
+div#adapt div#page-bar ol{
+  padding: 0;
+  margin: 0;
+}
+div#adapt div#page-bar ol li{
+  display: inline;
+}
+div#adapt div#page-bar ol li a#dir-editTag{
+  background-color:#4398fa;
+  color:white;
+  padding:3px;
+}
+/* ---- 標題 ----  */
+div#adapt div#head-title{
+  text-align: left!important;
+  width: 800px;
+}
+div#adapt div#head-title span{
+  display: block;
+  width: 203px;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  color: #a1a1a1;
+}
+
+/* --- table list ---*/
+
+div#adapt div#table-area{
+  margin-top:20px;
+}
+div#adapt div#inner-content{
+  width:600px;
+}
+
+div#adapt div#inner-content div{
+  text-align: left;
+  margin-bottom: 20px; 
+}
+div#adapt div#inner-content div#username-block{
+}
+div#adapt div#inner-content div#photo-block{
+  height: 100px!important;
+}
+div#adapt div#inner-content div#photo-block input#photo-upload{
+  position: fixed;
+  top:-100px;
+}
+div#adapt div#inner-content div#photo-block span{
+  display: block;
+}
+div#adapt div#inner-content div#photo-block img{
+  display: block;
+  margin-left: 70px;
+  cursor: pointer;
+
+}
+select#level-selec{
+  margin-left:20px;
+  background-color: #c3fafa;
+}
+div#adapt div#inner-content div#level-block　select#level-selec option{
+  background-color: #c3fafa;
+}
+div#adapt div#inner-content div#oldpasswd-block{
+}
+
+input#send{
+  margin:0 30px 0 90px
+}
+
+a#delete-btn{
+
+  color:red;
+
+  border: 1px solid red;
+
+  background-color: #ffffff;
+
+  border-radius: 5%;
+
+  padding: 4px;
+
+  cursor: pointer;
+
+} /* Red */ 
