@@ -8,13 +8,6 @@
 
 class CommentAction{
 
-  private $id;          //留言 id
-  private $user_id;     //使用者 id
-  private $user_name;   //使用者名稱
-  private $user_ckey;   //使用者 驗證序號
-  private $content;     //留言內容
-  private $state;       //發布狀態
-
   public function __construct(){
     $this->model = new CommentModel();
   }
@@ -53,7 +46,7 @@ class CommentAction{
       $level = $_COOKIE['mv'];
       $levelName = $_COOKIE['ln'];
       
-      if(Validate::checkUserValidate($this->user_id,$ckey,$level,$levelName)){ 
+      if(Validate::checkUserValidate($userId,$ckey,$level,$levelName)){ 
         echo '無 權 操 作!';
         return;
       }
