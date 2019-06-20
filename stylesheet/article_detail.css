@@ -1,0 +1,122 @@
+span{
+  color:gray;
+}
+ul{
+  list-style-type: disc;
+}
+img{
+  max-width: 100%;
+}
+div{
+  border: none;
+  border-radius: 0;
+}
+div#page-bar{
+  text-align: left;
+  margin:30px auto 15px auto;
+  border-bottom: 1px solid #c3dcf8;
+  padding-bottom:2px; 
+  width:900px;
+  
+}
+div#page-bar ol{
+  padding: 0;
+  margin: 0;
+}
+div#page-bar ol li{
+  display: inline;
+}
+div#page-bar ol li a#dir-currentTag{
+  background-color:#97c4f8;
+  color:wheat;
+  padding:3px;
+}
+div#adapt{
+  max-width: 100%;
+  width:800px;
+  margin:20px auto 0 auto;
+}
+div#adapt div{
+  width:900px;
+  margin-bottom: 40px;
+}
+div#adapt span{
+  font-size: 16px;
+}
+div#article-title h1{
+  word-break: break-all;
+  font-size: 28px;
+  text-align: center;
+}
+div#publish-time{
+  text-align: right;
+}
+div#summary{
+  background: #edf5de;
+  margin-top:20px;
+  width: 700px!important;
+  padding:4px 10px;
+}
+div#summary p{
+  word-break: break-all;
+  line-height: 150%;
+  width:100%;
+}
+
+div.bottom-bar{
+  width:500px;
+  text-align: center;
+  border-radius: 0;
+}
+div.bottom-bar a{
+  border: 2px solid #3c7ffd;
+  padding:4px;  
+}
+input#save {
+  color: gray;
+  border: 1px solid gray;
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+input#save:hover,input#save:focus{
+  background:gray;
+  color:white;
+}
+
+div#sec-adapt{
+  width: 700px;
+}
+div#sec-adapt div#content{
+  margin-bottom: 50px;
+}
+div#sec-adapt div#content span#content-span{
+  display: block;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+div#sec-adapt div#author-time{
+  color: #888787;
+  font-size: 14px;
+  background: #e5faeb;
+  padding:30px 0;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+div#sec-adapt div#author-time div#author{
+  width:292px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+div#sec-adapt div#author-time div#update{
+  width:292px;
+}
+
+/* ==== @media queries ==== */
+/* IPHONE 6/7/8 plus  */
+@media only screen and (max-width:414px){
+
+}

@@ -1,0 +1,185 @@
+div{
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+a{
+
+  text-align: center;
+
+  text-decoration:none;
+
+  color: #4b83fd;
+
+  cursor: pointer;
+
+  font-weight: bolder;
+}
+ol{
+  list-style: none;
+}
+div#adapt{
+  margin: 0 auto;
+}
+div#head-title h1{
+  text-align: center;
+  color: gray;
+  letter-spacing: 10px;
+}
+div#self-photo{
+  margin: 50px auto;
+  margin-bottom: 20px; 
+  text-align: center;
+}
+div#self-photo dt img{
+  width: 72px;
+  height: 72px;
+}
+div#self-photo dd{
+  margin: 0;
+}
+div#fan-collect-recipes{
+  margin: 0 auto 50px auto;
+}
+div#fan-collect-recipes ol{
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+div#fan-collect-recipes ol li{
+  display: inline-block;
+  width: 100px;
+}
+div#introduce{
+  width: 592px;
+  margin-bottom:50px; 
+}
+div#introduce div#head-title h2{
+  text-align: left;
+  color: gray;
+}
+div#introduce div#intro-content{
+  width: 500px;
+}
+div#new-recipe{
+  border: 1px solid red;
+  width: 592px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+div#new-recipe div#head-title{
+}
+div#new-recipe div#head-title h3{
+  background-color: red;
+  width: 90px;
+  text-align: center;
+  margin: 0;
+  color: #ffff;
+}
+div#new-recipe div#recipe-list div#list{
+  margin: 0 auto;
+}
+div#new-recipe div#recipe-list div#list dl {
+  display: inline-block;
+  width: 120px;
+  margin-left: 20px;
+  background-color: #cce7de;
+}
+div#new-recipe div#recipe-list div#list dl dt{
+}
+
+div#new-recipe div#recipe-list div#list dl dt img{
+  width: 120px;
+  height:90px;
+}
+
+div#new-recipe div#recipe-list div#list dl dd{
+  margin: 0;
+  text-align: center;
+}
+div#new-recipe div#recipe-list div#list dl dd#dd-title{
+  color:green;
+  font-size:14px;
+  word-break: break-all;
+}
+div#new-recipe div#recipe-list div#list dl dd#dd-date{
+  color:gray;
+  font-size:12px;
+  text-align: right;
+  padding-right:2px; 
+}
+
+div#new-collect{
+  border: 1px solid orange;
+  width: 592px;
+  margin: 0 auto;
+}
+div#new-collect div#head-title h3{
+  background-color: orange;
+  width: 90px;
+  text-align: center;
+  margin: 0;
+  color: #ffff;
+}
+div#new-collect div#recipe-list div#list{
+  margin: 0 auto;
+}
+div#new-collect div#recipe-list div#list dl {
+  display: inline-block;
+  width: 120px;
+  margin-left: 20px;
+  background-color: #cce7de;
+}
+div#new-collect div#recipe-list div#list dl dt{
+  font-size:14px;
+  color: #d68c37;
+  word-break: break-all;
+}
+
+div#new-collect div#recipe-list div#list dl dt img{
+  width: 120px;
+  height:90px;
+}
+
+div#new-collect div#recipe-list div#list dl dd{
+  margin: 0;
+  text-align: center;
+  font-size:12px;
+  color: #838080;
+}
+div#new-collect div#recipe-list div#list dl dd#dd-date{
+  text-align:center; 
+  font-size:5px;
+}
+div#new-collect div#recipe-list div#list dl dd#dd-delete{
+  text-align:right; 
+  padding:0 3px 3px 0;
+}
+div#new-collect div#recipe-list div#list dl dd#dd-delete a{
+  color: red;
+  border:1px solid red;
+}
+
+div#time{
+  text-align: right;
+  width:592px;
+  font-size:14px;
+}
+div#time span{
+  color:gray;
+  font-weight: bolder;
+}
+div#time div#login-time{
+  margin-bottom: 20px;
+}
+div#time div#reg-date{
+  margin-bottom: 20px;
+}
+div#enter-profile{
+  text-align: right;
+}
+div#enter-profile a{
+  border: 1px solid #4b83fd;
+  font-size: 14px; 
+  padding:2px;
+}

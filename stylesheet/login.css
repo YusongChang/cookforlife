@@ -1,0 +1,92 @@
+div#login{
+
+  margin-top:5%;
+
+  width: 903px;
+
+  height: 420px;
+
+  text-align: center!important;
+
+  border: none;
+
+  box-shadow: 0px 2px 10px 1px #00000033;
+
+}
+
+div#login div.head{
+  width: 240px;
+  border: none;
+  margin-bottom:10px;
+  padding-top:20px;
+}
+div#login div.head h1{
+  margin:0 0 0 15px;
+  letter-spacing: 10px;
+  color:gray;
+}
+
+@media only screen and (max-width:414px){
+
+  div#login{
+
+   border: none;
+
+  }
+
+}
+
+dl{
+
+  margin: 2% auto;
+
+}
+
+dl dd{
+
+  margin: 0%;
+
+}
+
+dl dd div.title h1{
+
+  letter-spacing: 4px;
+
+  color: #5a945a;
+
+  text-align: center;
+
+  background: url(../sprite/login.svg)no-repeat left center;
+
+}
+dl dd div.title h1#managehead{
+  background: url(../sprite/manage.svg)no-repeat left center;
+}
+
+dl dd div.title{
+
+  width: 200px;
+
+  padding: 1px 0 5px 60px;
+
+  border:none;
+
+}
+
+
+
+dl dd.span-hint{
+
+  padding-left: 6%;
+
+}
+
+dl dd.submit{
+
+  padding-left: 11%;
+
+}
+
+dl dd.submit input{
+  margin-right: 6%; 
+}

@@ -1,0 +1,116 @@
+div{
+  margin: 0 auto;
+  max-width:100%; 
+  width: 900px;
+}
+ol{
+  list-style: none;
+}
+a{
+
+  text-align: center;
+
+  text-decoration:none;
+
+  color: #4b83fd;
+
+  cursor: pointer;
+
+  font-weight: bolder;
+}
+div#adapt{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+div#adapt div#page-bar{
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #c3dcf8;
+  padding-bottom:2px; 
+}
+div#adapt div#page-bar ol{
+  padding: 0;
+  margin: 0;
+}
+div#adapt div#page-bar ol li{
+  display: inline;
+}
+div#adapt div#page-bar ol li a#dir-profileTag{
+  background-color:#97c4f8;
+  color:wheat;
+  padding:3px;
+}
+div#adapt div#self-photo{
+  width: 500px;
+}
+div#adapt div#self-photo img{
+  width: 72px;
+  height: 72px;
+}
+div#adapt div#user-info{
+  width: 500px;
+}
+div#adapt div#user-info ol{
+  padding:0;
+}
+div#adapt div#user-info ol li{
+  margin-bottom:10px;
+}
+div#adapt div#user-info ol li span{
+  margin-right:10px;
+
+}
+div#adapt div#user-info ol li a#edit-btn{
+  font-size: 5px;
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+  padding: 2px 4px;
+  color: #9e9e9e;
+}
+div#introduce{
+  width: 500px;
+  margin-bottom:50px; 
+}
+
+div#introduce div#head-title h1{
+  text-align: left;
+  color: #9b9999;
+}
+div#introduce div#intro-content{
+  width: 500px;
+}
+div#introduce div#intro-edit{
+  text-align: right;
+  height: 25px;
+}
+div#introduce a#edit-btn{
+  font-size: 5px;
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+  padding: 2px 4px;
+  color: #9e9e9e;
+}
+div#edit-bar{
+  width: 500px;
+  padding-left: 150px;
+  text-align: left;
+}
+div#edit-bar a{
+  border: 1px solid black;
+  font-size: 14px; 
+  padding:4px;
+  color:  black;
+}
+
+div#edit-bar a#change-pwd-btn{
+  border: 1px solid orange;
+  color: orange;
+}
+
+div#edit-bar a#edit-btn{
+  margin-right: 20px;
+}
+
+div#edit-bar a#change-pwd-btn{
+
+}

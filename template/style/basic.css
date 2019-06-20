@@ -1,0 +1,80 @@
+#header{
+  text-align: center;
+  position:sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+#header div.top-nav a{
+  text-decoration:none;
+}
+#header div.top-nav a div.svg{
+  float: left;
+  margin: 6px 0 0 -55px;
+}
+#header div.slogan{
+  float: left;
+  margin: 20px 0px 0 -20px;
+  width: 131px
+}
+#header div.slogan span{
+  font-style:italic;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  color:#ca7c07d3;
+  margin: 0px 0 0 0px;
+}
+#header div.slogan small{
+  color:#f87408ef;
+  font-weight: bold;
+  display: block;
+}
+#header div.search-bar{
+  margin: 0px 0px 0 13px;
+  float: left;
+}
+#header div.search-bar input.form-control{
+  width: 320px;
+  margin: 28px 0 0 0;
+  display: block;
+  float: left;
+}
+#header div.search-bar div.dropdown{
+  width: 72px;
+  height: 20px;
+  margin: 28px 0 0 0;
+  float: left;
+}
+#header div.search-bar div.dropdown a.btn-secondary{
+  color: #797575;
+  background-color:#fff;
+  border-color: #ced4da; 
+}
+#header div.search-bar div.dropdown div.dropdown-menu{
+  margin: 10px 0 0 0;
+}
+#header div.search-bar div.dropdown div.dropdown-menu a.dropdown-item:hover{
+  background-color:#ced4da;
+}
+#header div.search-bar button.btn-danger{
+  margin: 28px 0 0 0;
+}
+#header div.user-operation{
+  margin: 25px 0px 0 0;
+  width: 290px;
+  float: right;
+}
+#header div.user-operation span{
+  margin: 0 0px 0 4px;
+  font-size:20px;
+}
+#header div.user-operation a{
+  width: 124px;
+  color:#fff;
+  background-color:#ff8807;
+  line-height: 30px; 
+  margin: 0 -40px 0 4px;
+  border-radius:20px;
+}

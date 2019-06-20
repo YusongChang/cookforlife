@@ -1,0 +1,153 @@
+/* ----留言區 ---- */
+div{
+  border: none;
+}
+div#comment div.write-comment{
+  width:664px;
+  padding: 10px 0;
+}
+div#comment div.write-comment h3{
+  color: gray;
+}
+div#comment div.write-comment h3 span{
+  font-size:12px;
+  font-weight:normal;
+  margin-left: 10px; 
+}
+div#comment div.write-comment h4{
+  color: gray;
+  height: 72px;
+  margin: 0 0 5px 0;
+}
+div#comment div.write-comment h4 img{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-top: 22px;
+  transition: 0.5s;
+}
+div#comment div.write-comment h4 img:hover{
+  opacity: 0.5;
+}
+div#comment div.write-comment h4 a.login-link{
+  margin:45px 0px 0 0px;
+}
+div#comment div.write-comment div#text-div{
+  width: 263px;
+  margin: 0;
+}
+div#comment div.write-comment a{
+  float: left;
+  margin:55px 0px 0 10px;
+}
+div#comment div.write-comment span.word-limit{
+  float: left;
+  margin:55px 0px 0 10px;
+}
+div#comment div.write-comment div#send button{
+  float: left;
+  margin: 0 10px 0 0;
+}
+div#comment div.write-comment div#send span{
+  float: left;
+  height: 0;
+  /* margin: 0 10px; */
+}
+div#comment div.write-comment div#send span a{
+  height: 0;
+  margin:0;
+}
+div#comment div.comment-list{
+  width:664px;
+  padding: 10px 0;
+}
+div#comment div.comment-list div#new-comment{
+  background: #ddebc8;
+  margin:0px;
+  margin-bottom:20px;
+  width:400px;
+}
+div#comment div.comment-list ol li p#new-comment-p{
+  width: 130px;
+  margin-bottom:0px;
+}
+div#comment div.comment-list ol li span#new-comment-span{
+  width: 100%;
+  display: block;
+  word-break: break-all;
+}
+div#comment div.comment-list ol li p#new-comment-p span{
+  margin-left:20px;
+
+}
+div#comment div.comment-list h4{
+  color: gray;
+}
+div#comment div.comment-list ol{
+  margin: 0px;
+  padding: 0px;
+}
+div#comment div.comment-list ol li{
+  padding: 0;
+  vertical-align: middle;
+}
+div#comment div.comment-list ol li img{
+  width: 50px;
+  height: 50px;
+  background: blueviolet;
+  transition: 0.5s;
+  vertical-align: middle;
+}
+div#comment div.comment-list ol li img:hover{
+  opacity: 0.5;
+}
+div#comment div.comment-list ol li span{
+  line-height: 200%;
+}
+div#comment div.comment-list ol li span.date-span{
+  color:gray;
+  width: 200px;
+  margin-left: 5px;
+  font-style: italic;
+  font-size: 13px;
+}
+div#comment div.comment-list ol li p a{
+  color:#fb6934;
+}
+div#comment div.comment-list ol li div.reply{
+  display: none;
+}
+div#comment div.comment-list ol li div#send{
+  margin-bottom: 10px;
+}
+div.comment-list span.floor-span{
+  font-weight:bolder;
+  display: inline-block;
+  min-width:30px;
+  height: 16px;
+  color:#ffff;
+  background: #b0b0fa;
+  font-style: italic;
+  text-align: center;
+  font-size:14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+div.comment-list hr{
+  opacity:0.3;
+  color:#c2c2ff;
+  margin:5px 0 10px 0;
+}
+
+/* ==== @media queries ==== */
+/* IPHONE 6/7/8 plus  */
+@media only screen and (max-width:414px){
+  div#comment div.write-comment{
+    width:300px;
+    margin:0 15px;
+  }
+  div#comment div.comment-list{
+    width:300px;
+    margin:0 15px;
+  }
+}

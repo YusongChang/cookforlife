@@ -1,0 +1,17 @@
+/* style.css */
+body{
+  height: 100%;
+}
+/* cover.css */
+#cover{
+  height: 100%;
+  background:#222 url(../image/bg.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+#cover-caption{
+  width: 100%;
+}

@@ -1,0 +1,205 @@
+body{
+  background: #fafaf5;
+}
+ul{
+  list-style-type: none;
+}
+#header{
+  background: #fafaf5;
+  position:sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+#header div.row div.logo img{
+  width: 92px;
+  float: left;
+}
+
+#header div.row div.logo span.site-name{
+  margin:25px 0 0 0;
+  float: left;
+  font-weight:bold;
+  font-style:italic;
+  font-family: Impact, Charcoal, sans-seriㄟf;
+  font-size: 25px;
+  color:#ca7c07d3;
+}
+#header div.row div.logo small.site-slogan{
+  margin:0px 0 0 8px;
+  float: left;
+  color:#f87408ef;
+  font-weight:bold;
+}
+#header div.row div.search{
+  padding: 37px 54px;
+}
+#header div.row div.search div.input-group{
+  width: 420px;
+}
+#header div.row div.search div.input-group a.btn-danger{
+ margin:0 0 0 10px;
+}
+#header div.row div.search div.input-group a.btn-danger img{
+  width: 20px;
+}
+#header div.row div.user-operation{
+  padding:33px 0;
+  text-align: center;
+}
+#header div.row div.user-operation span{
+  margin: 0 5px 0 -40px;
+
+}
+#header div.row div.user-operation button.btn-success{
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 50px;
+}
+#header div.row div.user-operation button.btn-success img{
+  width: 20px;
+}
+#header div.row div.search-order{
+  opacity: 0.6;
+}
+#header div.row div.search-order a{
+  pointer-events: none;
+}
+#header div.row div.hot-keyword{
+  margin-left:-30px;
+}
+#header div.row div.hot-keyword a{
+  color:#979696;
+}
+#main-content{
+  margin: 30px 0 0 0;
+}
+#main-content div.popular-list{
+  background: #efede8;
+  border: 1px solid #d6d5d3d3;
+  margin:0 0 20px 0;
+}
+h4.head{
+  font-size: 16px;
+  border-bottom: 1px solid #d6d5d3d3;
+
+}
+h4.head a.more{
+  display: block;
+  float:right;
+  padding: 0 0px 10px 28px;
+  margin-right:5px;
+  width:70px;
+  color:#adadacd3;
+  background: url(../image/more.png) no-repeat 0px 2px ;
+  opacity: 0.6;
+}
+#main-content div.popular-list h4.king-title{
+  padding:10px 0 10px 27px;
+  background: url(../image/crown.png)  no-repeat 10px 2px;
+}
+#main-content div.recommend-list{
+  background: #efede8;
+  border: 1px solid #d6d5d3d3;
+  margin:0 0 20px 0;
+}
+#main-content div.recommend-list h4.thumb-title{
+  padding:10px 0 10px 30px;
+  background: url(../image/like.png)  no-repeat 5px 10px;
+}
+
+#main-content div.newest-list{
+  background: #efede8;
+  border: 1px solid #d6d5d3d3;
+  margin:0 0 20px 0;
+}
+#main-content div.newest-list h4.newest-title{
+  padding:10px 0 10px 35px;
+  background: url(../image/newest.png)  no-repeat -1px 3px;
+}
+
+#main-content div.ad-list{
+  background: #efede8;
+  border: 1px solid #d6d5d3d3;
+  margin:0 0 20px 0;
+}
+#main-content div.ad-list h4.ad-title{
+  padding:10px 0 10px 48px;
+  background: url(../image/announcement.png)  no-repeat 10px 4px;
+}
+#main-content div.act-list{
+  background: #efede8;
+  border: 1px solid #d6d5d3d3;
+}
+#main-content div.act-list h4{
+  padding:10px 0 10px 48px;
+  background: url(../image/best-price.png)  no-repeat 8px 4px;
+}
+#footer{
+  margin-top: 300px;
+  border-top:1px solid #d6d6d6;
+  text-align: center;
+}
+#footer ul.social-media{
+  margin: 10px 0 30px 0;
+}
+#footer ul.social-media li{
+  margin:10px 0 0 0; 
+  padding: 10px 10px;
+  display: inline-block;
+  height: 30px;
+}
+#footer ul.social-media li.site-logo{
+  width: 210px;
+}
+#footer ul.social-media li img.logo{
+  margin:-20px 0 0 0; 
+  float: left;
+}
+#footer ul.social-media li span.site-name{
+  margin:-10px 0 0 0; 
+  float: left;
+  font-weight:bold;
+  font-style:italic;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 22px;
+  color:#ca7c07d3;
+}
+#footer ul.social-media li small.site-slogan{
+  float: left;
+  width: 116px;
+  color:#f87408ef;
+  font-weight:bold;
+  font-size:1px;
+}
+#footer ul.contact-infor{
+  margin: 0px 0 30px 0;
+}
+#footer ul.contact-infor li{
+  padding: 30px 35px;
+  display: inline-block;
+  height: 30px;
+}
+#footer ul.contact-infor li a{
+  color: #999999;
+}
+#footer ul.contact-infor li.about{
+  background: url(../image/about.png) no-repeat left 20px;
+}
+#footer ul.contact-infor li.legal{
+  background: url(../image/legal-paper.png) no-repeat left 20px;
+}
+#footer ul.contact-infor li.problem{
+  background: url(../image/problem.png) no-repeat left 20px;
+}
+#footer ul.contact-infor li.contact{
+  background: url(../image/contact.png) no-repeat left 20px;
+}
+#footer p{
+  color: #999999;
+}
+#footer p.waring{
+  height: 20px;
+  background: url(../image/warning.png) no-repeat 245px 0px;
+}

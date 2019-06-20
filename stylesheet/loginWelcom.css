@@ -1,0 +1,45 @@
+a{
+
+  text-align: center;
+
+  text-decoration:none;
+
+  color: #4b83fd;
+
+  cursor: pointer;
+}
+
+div#adapt{
+  text-align: center;
+  max-width: 100%;
+  width: 900px;
+  margin: 100px auto;
+
+}
+div#head-title{
+  margin: 20px auto;
+
+}
+div#head-title span{
+  color: #a1a1a1;
+  font-size: 30px;
+  width: 800px;
+}
+div#wel-info{
+  margin: 20px auto;
+}
+div#wel-info span{
+  font-size: 15px;
+  font-weight: bolder;
+  color: #8f8c8c;
+}
+div#page-selec a{
+  border:1px solid #4b83fd;
+  border-radius: 4px;
+  padding:4px;
+  background:#f7f8fb;
+}
+div#page-selec a:focus{
+  color: #ffffff;
+  background:#4b83fd;
+}

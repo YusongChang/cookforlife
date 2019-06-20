@@ -1,0 +1,21 @@
+div{
+  margin: 0 auto;
+}
+
+div#adapt{
+  margin-top: 150px;
+}
+div#adapt span{
+  display: block;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+}
+div#adapt  p{
+  display: block;
+  margin-top:40px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  padding-left: 10px;
+}

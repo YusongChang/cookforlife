@@ -1,0 +1,128 @@
+div{
+  margin: 0 auto;
+  max-width:100%; 
+  width: 900px;
+}
+ol{
+  list-style: none;
+}
+a{
+
+  text-align: center;
+
+  text-decoration:none;
+
+  color: #4b83fd;
+
+  cursor: pointer;
+
+  font-weight: bolder;
+}
+div#adapt{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+div#adapt div#self-photo{
+  width: 500px;
+}
+
+div#adapt div#user-info{
+  width: 500px;
+}
+div#adapt div#user-info input#upload-photo{
+  position: fixed;
+  top:-30px;
+}
+div#adapt div#user-info ol li span#photo-span{
+  display: block;
+}
+div#adapt div#user-info ol li div#canvas-div{
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  margin-left: 100px;
+  transition: 0.5s;
+}
+div#adapt div#user-info ol li  div#canvas-div:hover{
+  border: 5px solid gray;
+  width: 72px;
+  height: 72px;
+  opacity: 0.6;
+}
+div#adapt div#user-info ol li div#canvas-div canvas#photo-canvas{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: url('../sprite/camera.svg')no-repeat 45% center; 
+  background-size: 35px;
+  opacity:0.2;
+}
+div#adapt div#user-info ol li div#canvas-div canvas#photo-canvas:hover{
+  opacity:1;
+}
+
+div#adapt div#user-info ol{
+  padding:0;
+}
+div#adapt div#user-info ol li{
+  margin-bottom:10px;
+}
+div#adapt div#user-info ol li span{
+  margin-right:10px;
+
+}
+div#adapt div#user-info ol li a#edit-btn{
+  font-size: 5px;
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+  padding: 2px 4px;
+  color: #9e9e9e;
+}
+div#adapt div#page-bar{
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #c3dcf8;
+  padding-bottom:2px; 
+}
+div#adapt div#page-bar ol{
+  padding: 0;
+  margin: 0;
+}
+div#adapt div#page-bar ol li{
+  display: inline;
+}
+div#adapt div#page-bar ol li a#dir-editTag{
+  background-color:#97c4f8;
+  color:wheat;
+  padding:3px;
+}
+div#introduce{
+  width: 500px;
+  margin-bottom:50px; 
+}
+
+div#introduce div#head-title h1{
+  text-align: left;
+  color: #9b9999;
+}
+
+div#introduce a#edit-btn{
+  font-size: 5px;
+  border: 1px solid #9e9e9e;
+  border-radius: 8px;
+  padding: 2px 4px;
+  color: #9e9e9e;
+}
+div#edit-bar{
+  text-align: center;
+  width: 500px;
+}
+div#edit-bar a{
+  border: 1px solid ;
+  font-size: 14px; 
+  padding:4px;
+  color:  #4b83fd;
+}
+div.simditor-body{
+  padding-left:3px!important;
+}
